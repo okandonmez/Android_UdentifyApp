@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textColor="@android:color/white" android:id="@+id/btnLogout" android:background="@drawable/buttonroundedcorners" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="38dp" android:text="Çıkış Yap" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginEnd="55dp"/>
+    <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="95dp" android:layout_marginTop="158dp" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:alpha="0.2" android:layout_marginEnd="55dp" NOT_FOUND_NS_0x12_http://schemas.android.com/apk/res-auto:srcCompat="@drawable/udentifylogomavi"/>
+</RelativeLayout>

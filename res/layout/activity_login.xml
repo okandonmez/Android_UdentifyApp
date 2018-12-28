@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@android:color/background_light" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/iconpassword" n1:layout_width="25.0dip" n1:layout_height="25.0dip" n1:layout_marginBottom="11.0dip" n1:layout_above="@id/view2" n1:layout_alignStart="@id/view2" n2:srcCompat="@drawable/iconpassword" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/view2" n1:background="@android:color/darker_gray" n1:layout_width="fill_parent" n1:layout_height="0.6dip" n1:layout_alignBottom="@id/PasswordLayout" n1:layout_marginStart="35.0dip" n1:layout_marginEnd="35.0dip" n1:layout_alignParentStart="true" />
+    <ImageView n1:id="@id/iconlogo" n1:layout_width="250.0dip" n1:layout_height="80.0dip" n1:layout_marginTop="73.0dip" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n3:srcCompat="@drawable/udentifylogomavi" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/iconusername" n1:layout_width="25.0dip" n1:layout_height="25.0dip" n1:layout_marginBottom="11.0dip" n1:layout_above="@id/view" n1:layout_alignStart="@id/view" n4:srcCompat="@drawable/iconusername" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ProgressBar n1:id="@id/pbLogin" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" style="?android:progressBarStyle" />
+    <android.support.design.widget.TextInputLayout n1:theme="@style/TextLabel" n1:id="@id/UsernameLayout" n1:layout_width="257.0dip" n1:layout_height="50.0dip" n1:layout_marginTop="71.0dip" n1:layout_below="@id/iconlogo" n1:layout_marginStart="15.0dip" n1:layout_alignStart="@id/iconlogo">
+        <android.support.design.widget.TextInputEditText n1:id="@id/edtUsername" n1:background="@android:color/transparent" n1:layout_width="257.0dip" n1:layout_height="35.0dip" n1:hint="@string/loginUsernameHint" n1:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+    <View n1:id="@id/view" n1:background="@android:color/darker_gray" n1:layout_width="fill_parent" n1:layout_height="0.6dip" n1:layout_alignBottom="@id/UsernameLayout" n1:layout_marginStart="35.0dip" n1:layout_marginEnd="35.0dip" n1:layout_alignParentStart="true" />
+    <android.support.design.widget.TextInputLayout n1:theme="@style/TextLabel" n1:id="@id/PasswordLayout" n1:layout_width="257.0dip" n1:layout_height="50.0dip" n1:layout_marginTop="300.0dip" n1:layout_marginStart="15.0dip" n1:layout_alignStart="@id/iconlogo">
+        <android.support.design.widget.TextInputEditText n1:id="@id/edtPassword" n1:background="@android:color/transparent" n1:paddingTop="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="Şifre" n1:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <Button n1:textColor="@android:color/white" n1:id="@id/btnLogin" n1:background="@drawable/buttonroundedcorners" n1:layout_width="fill_parent" n1:layout_height="52.0dip" n1:layout_marginTop="39.0dip" n1:text="Giriş Yap" n1:layout_below="@id/view2" n1:layout_alignStart="@id/view2" n1:layout_alignEnd="@id/view2" />
+    <TextView n1:textSize="12.0sp" n1:id="@id/txtMotto" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dip" n1:text="Fiziksel Ortamda Müşteri ve Ekip Analiz Sistemi" n1:layout_above="@id/txtWebLink" n1:layout_centerHorizontal="true" />
+    <TextView n1:textStyle="bold" n1:id="@id/txtWebLink" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="23.0dip" n1:text="udentify.co" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+</RelativeLayout>
